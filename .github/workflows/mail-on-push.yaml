@@ -14,7 +14,7 @@ jobs:
             password: ${{secrets.MAIL_PASSWORD}}
             subject: ase
             body: Email testg from ${{github.repository}}. which is owned by ${{github.event.pusher.name}}.  
-            to: juri.vaitmaa@tthk.ee
+            to: jyri.vaitmaa@tthk.ee
             from: Github actions
   Explore-GitHub-Actions:
 
